@@ -6,7 +6,5 @@ int* runningSum(int* nums, int numsSize, int* returnSize) {
         result[i]=result[i-1]+nums[i];
     }
     *returnSize=numsSize;
-    return result;
-
-    
+    return result;    
 }
